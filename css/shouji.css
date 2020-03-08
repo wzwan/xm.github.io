@@ -1,0 +1,87 @@
+#phone{
+	width: 1210px;
+	margin: 150px auto 0px auto;
+	overflow: hidden;
+}
+.diyi{
+	width: 250px;
+	height: 660px;
+	margin-right: 20px;
+	float: left;
+}
+.diyi_n1{
+	font-size: 22px;
+	content: #333;
+}
+.diyi_n2{
+	width: 234px;
+	height: 614px;
+	background: url(../img2/b78.webp.jpg) no-repeat;
+	background-size: 234px 614px;
+	cursor: pointer;
+	margin-top: 15px;
+	transition: all 1s;
+}
+.diyi_n2:hover{
+	transform: translateY(-5px) translateZ(5px);
+	box-shadow: 0px 10px 8px 2px #D9D9D9;
+}
+.dier{
+	width: 965px;
+	height: 660px;
+	float: left;
+	margin-left: -25px;
+}
+.dier_n1{
+	font-size: 18px;
+	font-weight: 900px;
+	content: #333;
+	margin-left:  875px;
+	transition:all 1s;
+	cursor: pointer;
+}
+.dier_n1:hover{
+	color: #FF7300;
+}
+.asd{
+	width: 100%;
+	height: 325px;
+	display: flex;
+	justify-content: space-between;
+	overflow: hidden;
+}
+.asd div{
+	width: 220px;
+	height: 88%;
+	float: left;
+	margin-top: 22px;
+	background: #fff;
+	cursor: pointer;
+	transition: all 1s;
+}
+.asd div:hover{
+	transform: translateY(-5px);
+	box-shadow: 0px 10px 8px 2px #D9D9D9;
+}
+.qian_z1{
+	margin-left: 48px;
+	font-size: 16px;
+	color:  #000;
+}
+.qian_z2{
+	font-size: 11px;
+	margin-left: 54px;
+	color:#B0B0B0;
+}
+.qian_z3{
+	margin-left: 60px;
+	color: #FF944C;
+}
+.phone_ditu{
+	width: 1210px;
+	height: 120px;
+	background: url(../img2/19.PNG);
+	background-size: 1210px 120px;
+	margin-top: 670px;
+	cursor: pointer;
+}
