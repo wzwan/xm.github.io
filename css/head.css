@@ -1,0 +1,244 @@
+*{
+	margin: 0;
+	padding:0;
+}
+@font-face {
+		  /*自定义的字体名称*/
+		  font-family: 'icomoon';
+		  src:  url('../fonts/icomoon.eot?fqihdn');
+		  src:  url('../fonts/icomoon.eot?fqihdn#iefix') format('embedded-opentype'),
+		    url('../fonts/icomoon.ttf?fqihdn') format('truetype'),
+		    url('../fonts/icomoon.woff?fqihdn') format('woff'),
+		    url('../fonts/icomoon.svg?fqihdn#icomoon') format('svg');
+		  font-weight: normal;
+		  font-style: normal;
+		  font-display: block;
+		}
+.daohang{
+	background: #333;
+	height: 40px;
+	width: 100%;
+	color: #999;			
+	font-size: 12px;
+	font-weight: 500;			
+}
+.daohang2{
+	width: 1210px;
+	margin: 0 auto;
+}
+.head-1{
+	float: left;
+}
+.head-1 li{
+	list-style: none;
+	float: left;
+	padding-left: 8px;
+	line-height: 40px;
+	padding-right: 6px;
+}
+.head-1 span{
+	float: left;
+	line-height: 40px;
+	color: #42423f;
+}
+.head-2 span{
+	float: left;
+	line-height: 40px;
+	color: #42423f;
+}
+.head-2 li{
+	list-style: none;
+	float: left;
+	padding-right: 8px;
+	line-height: 40px;
+	padding-left: 6px;
+}
+.head-2{
+	float: right;
+}
+.head-2 img{
+	width: 20px;
+	height: 20px;
+}
+.head-1 li:hover{
+	cursor: pointer;
+	color: #fff;
+}
+.head-2 li:hover{
+	cursor: pointer;
+	color: #fff;
+}
+#li:hover{
+	background: #fff;
+	color: orange;
+}
+.head-3 img{
+	width: 50px;
+	height: 50px;
+}
+.head-3{
+	position: absolute;
+	color: #ccc;
+	font-size: 15px;
+	display: none;
+	padding-top: 5px;
+	background: #fff;
+	width: 100px;
+	height: 100px;
+	text-align: center;
+	margin-left: -24px;
+	box-shadow: 2px 0px 2px #ccc,
+	-2px 0px 2px #ccc;
+}
+.xiala{
+	position: relative;
+	transition: all 1s;
+}
+.head-3::after{
+	content: "";
+	width: 10px;
+	height: 10px;
+	transform: rotateZ(45deg);
+	background: #fff;
+	position: absolute;
+	top: -5px;
+	left: 40px;
+}
+.xiala:hover .head-3{
+	display: block;
+}
+.aa{
+	width: 300px;
+	height: 100px;
+	background: #fff;
+	display: none;
+	position: absolute;
+	right: 20px;
+	box-shadow: 2px 0px 2px #ccc,
+	-2px 0px 2px #ccc;
+	z-index: 2;
+	color: red;
+	font-size: 18px;
+	text-align:center;
+	line-height:  100px;
+}
+#li{
+	transition: all 1s;
+}
+#li::before{
+	font-family: "icomoon";
+	content: "\e93a";
+}
+#li:hover .aa{
+	display: block;
+}
+a{
+text-decoration:none;
+color: #ccc;
+left: 10px;
+}
+.head{
+width: 1210px;
+height: 100px;
+background: #fff;
+margin: 0 auto;
+display: flex;
+flex-direction: row;
+}
+.head_l{
+	flex:2;padding-top: 20px
+}
+.head_c{
+	flex:6;
+}
+.head_r{
+	flex:3;
+}
+.head_l img{
+	width: 66px;
+	height: 66px;
+}
+.head_l_kuang{
+	width: 66px;
+	height: 66px;
+	overflow: hidden;
+	cursor: pointer;
+}
+.head_l_logo{
+	width: 132px;
+	height: 66px;
+	transition:all 0.5s linear 0s;
+}
+.head_l_logo:hover{
+	transform: translateX(-66px)
+}
+.head_c a{
+	font-size: 16px;
+	text-decoration:none;
+	color: #000;
+	line-height: 100px;
+	margin-left: 20px
+}
+.head_c a:hover{
+	color: orange
+}
+.head_r input{
+	width: 200px;
+	height: 40px;
+	float: left;
+	margin-left: 58px;
+	margin-top: 30px;
+	border: 1px solid #E0E0E0;
+}
+.head_r_r{
+	margin-left: 257px;
+	margin-top: 30px;
+	width: 40px;
+	height: 40px;
+	border: 1px solid #E0E0E0;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.head_r_r:hover{
+	background: #ff6700;
+	color: white;
+}
+.head_r_r::before{
+	display: inline-table;
+	font-size: 20px;
+	margin:9px;
+	font-family: 'icomoon';
+	content: "\e986";
+}
+#app_xiazai{
+	position: relative;
+}
+.app_xiazai{
+	position: absolute;
+	top: 30px;
+	left: 10px;
+	width: 50px;
+	height: 50px;
+	background: #fff;
+}
+.app_xiazai img{
+	width: 50px;height: 50px;
+}
+.search-hot-words{
+	position: absolute;
+	top:84px;
+	right: 98px;
+	text-align: right;
+	font-size: 10px;
+}
+.search-hot-words a{
+	background: #EEEEEE;
+	color: #757575;
+	padding-right: 10px;
+	cursor: pointer;
+	transition: all 0.5s;
+}
+.search-hot-words a:hover{
+	background: orange;
+	color: #fff;
+}
