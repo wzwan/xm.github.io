@@ -1,0 +1,187 @@
+#body2{
+		width:100%;
+		background: #f5f5f5;
+		margin-top: 100px;
+	}
+	#shangou{
+		width: 1210px;
+		margin:0 auto;
+		height: 420px;
+		padding: 17px 17px;
+		/*background: red;*/
+		position: relative;
+	}
+.shangou_date{
+	width: 200px;
+	height: 400px;
+	float: left;
+}
+#shan{
+	width: 100px;
+	height: 50px;
+	font-size: 20px;
+	font-weight: 100;
+	text-align: center;
+	line-height: 50px;
+}
+.left{
+		float: left;
+	}
+		.shangou_date{
+			width: 230px;
+			height: 340px;
+			padding-top: 39px;
+			border-top: 1px solid red;
+			background: #f1eded;
+			text-align: center;
+		}
+		.round{
+			font-size: 21px;
+			color: #ef3a3b;
+			padding-top: 15px;
+		}
+		.shangou_date img{
+			width: 42px;
+			height: 53px;
+			margin: 25px auto;
+
+		}
+		.desc{
+			color: rgba(0,0,0,0.54);
+			font-size: 18px
+		}
+		.shangou_date_bottom{
+			width: 168px;
+			height: 46px;
+			margin: 28px 33px 0px 33px;
+		}
+		.shangou_date_bottom span{
+			width: 46px;
+    		height: 46px;
+    		background: #605751;
+    		color: #fff;
+    		font-size: 24px;
+    		line-height: 46px;
+    		float: left;
+		}
+		.shangou_date_bottom i{
+			width: 15px;
+    		float: left;
+    		height: 46px;
+    		line-height: 46px;
+    		color: #605751;
+    		font-size: 28px;
+    		font-style: normal;
+		}
+		.shangou_date_day{
+			height: 46px;color: #605751;
+		}
+		.day_one{
+			width: 46px;height: 46px;
+			margin: 0 auto;
+			background: #605751;
+			color: #fff;
+			font-size: 24px;
+    		line-height: 46px;
+    		margin-left: 70px
+		}
+.shangou_lun{
+	width:950px;
+	height: 380px;
+	margin-left: 30px;
+	background-size: 950px 380px;
+	overflow: hidden;
+	float: left;
+	animation: 1s linear 0s ;
+}
+.shangou_lun img{
+	width:950px;
+	height: 380px;
+}
+.shangou_lun_2{
+	width:6650px;
+	height: 380px;
+	animation: zz 30s linear 0s infinite;
+}
+.shangou_lun_3{
+	width:6650px;
+	height: 380px;
+}
+#shangou_2{
+	overflow: hidden;
+	
+}
+#shan2{
+	position: absolute;
+	top: 30px;
+	right: 0px;
+}
+#shan2 button{
+	width: 40px;
+	height: 28px;
+	background: #f5f5f5;
+	font-size: 20px;
+	font-weight: 900;
+	border:1px solid #e0e0e0;
+	color: #b0b0b0;
+	cursor: pointer;
+	transition: all 1s;
+	line-height: 12px;
+}
+#shan2 button:hover{
+	color:#ff6700;
+}
+#shan2 button:nth-child(2){
+
+}
+.shangou_ditu{
+	width: 1210px;
+	height: 120px;
+	margin-top: 10px;
+	background: url(../img/di1.jpg);
+	background-size: 100% 100%;
+	cursor: pointer;
+}
+@keyframes zz{
+	0%{
+		transform: translateX(0px);
+	}
+	16%{
+		transform: translateX(0px);
+	}
+	17%{
+		transform: translateX(-950px);
+	}
+	31%{
+		transform: translateX(-950px);
+	}
+	32%{
+		transform: translateX(-1910px);
+	}
+	48%{
+		transform: translateX(-1910px);
+	}
+	49%{
+		transform: translateX(-2860px);
+	}
+	65%{
+		transform: translateX(-2860px);
+	}
+	66%{
+		transform: translateX(-3810px);
+	}
+	82%{
+		transform: translateX(-3810px);
+	}
+	83%{
+		transform: translateX(-4775px);
+	}
+	99%{
+		transform: translateX(-4775px);
+
+	}
+	100%{
+		transform: translateX(-5700px);
+	}
+
+}
