@@ -5,7 +5,7 @@ var tian = document.getElementsByClassName("day_one")[0]
 	function setTime(){
 		var dt = new Date()
 		var dt1 = new Date()
-		dt.setFullYear(2019,10,11)
+		dt.setFullYear(2020,10,11)
 		dt.setHours(00)
 		dt.setMinutes(00)
 		dt.setSeconds(00)
